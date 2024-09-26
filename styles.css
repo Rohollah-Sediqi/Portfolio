@@ -1,0 +1,186 @@
+
+body {
+    background-color: #1b1b1b;
+    color: #ffffff; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background: #1b1b1b;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    color: #00ff99;
+    font-size: 24px;
+}
+
+.nav-item, .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.nav-item, .nav-link:hover {
+    color: #00ff99;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+    position: relative;
+    min-height: 100vh;
+}
+.custom-container {
+    max-width: 97%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content .intro {
+    font-size: 1.2em;
+    color: #00ff99;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content .subtitle {
+    font-size: 1.5em;
+    color: #00ff99;
+    margin-bottom: 20px;
+}
+
+.hero-content .description {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #00ff99;
+    color: #1b1b1b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+}
+
+.btn:hover {
+    background-color: #00cf7c;
+}
+
+.hero-image {
+    max-width: 50%;
+    text-align: right;
+}
+
+.hero-image img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.experiences {
+    text-align: center;
+    justify-content: space-around;
+    background: black;
+    max-width: 97%;
+    margin: 6.25rem 1.25rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(56, 56, 56);
+}
+.experiences h1{
+    color: #00ff99;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.experiences-card{
+    display: flex;
+    margin-top: 20px;
+}
+.experiences img{
+    border-radius: 10px;
+}
+.experience{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 2px rgb(91, 91, 91);
+}
+.experience h2{
+    margin-bottom: 40px;
+}
+@media screen and (max-width : 400px) {
+    .experiences {
+        width: 100%;
+    }
+}
+
+#projects{
+    background: black;
+    max-width: 97%;
+    margin: 30px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(56, 56, 56);
+}
+#projects h1{
+    margin-bottom: 50px;
+    color: #00ff99;
+}
+#project{
+    margin: 50px;
+}
+.project{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(56, 56, 56);
+    border-radius: 5px;
+    width: 97%;
+    transition: width 0.5s ease, transform 0.7s ease;
+}
+.project:hover{
+    width: 100%;
+    transform: scale(1, 1.2);
+}
+.project h2{
+    margin-bottom: 20px;
+}
+.project a{
+    color: #00cf7c;
+    text-decoration: none;
+}
+
+footer{
+    margin: 50px 20px;
+    background: black;
+    border-radius: 10px;
+    max-width: 97%;
+    box-shadow: 0 0 10px rgb(56, 56, 56);
+}
+footer a{
+    text-decoration: none;
+    color: #00cf7c;
+}
